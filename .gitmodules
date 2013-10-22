@@ -1,0 +1,4 @@
+
+[submodule "js/vendors/mockjax"]
+	path = js/vendors/mockjax
+	url = https://github.com/appendto/jquery-mockjax.git

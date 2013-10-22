@@ -1,0 +1,56 @@
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+}
+
+a, a:visited, a:active {
+	color: #0d3349;
+	text-decoration: none;
+}
+
+.menu .active a {
+	color:red;
+}
+
+a:hover {
+	color: magenta;
+	text-decoration: underline;
+}
+
+a[target="_blank"]:after {
+	content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=");
+	margin: 0 0 0 5px;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+html[xmlns] .clearfix {
+	display: block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+ul.menu {
+	list-style: none none;
+	margin: 0;
+	padding: 0;
+}
+.menu li {
+	float: left;
+	margin: 0;
+	padding: .5em 2em;
+	border:  solid 1px darkgray;
+}
