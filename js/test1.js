@@ -3,6 +3,8 @@ $.mockjaxSettings.responseTime = 0;
 // mockjax injection
 $.mockjax({
 	url: '/my/api',
+	// url: '/api/*'
+	// url: /^\/api\/(quote|tweet)$/i
 	responseText: "Hello Word"
 });
 
